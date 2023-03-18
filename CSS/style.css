@@ -185,7 +185,7 @@ button:active {
   position: absolute;
   font-size: 30px;
   font-weight: 800;
-  left: 15%;
+  left: 25%;
   top: 45%  ;
 }
 
@@ -219,7 +219,7 @@ button:active {
 
   .grid .cell {
     width: 100% ; 
-    height: 100% ; 
+    height: 99% ; 
   }
 
   .grid i {
@@ -254,7 +254,7 @@ button:active {
     width: 80%;
     height: 30%;
     left: 10%;
-    top: 41%;
+    top: 40%;
   }
 
   .winner-window .winnerText {
