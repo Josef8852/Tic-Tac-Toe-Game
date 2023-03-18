@@ -259,6 +259,7 @@ button:active {
 
   .winner-window .winnerText {
     font-size: 20px;
+    left: 10%;
   }
 
 }
