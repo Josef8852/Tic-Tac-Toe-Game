@@ -223,7 +223,7 @@ button:active {
   }
 
   .grid i {
-    font-size: 40px;
+    font-size: 80%;
   }
 
   .playerOne {
@@ -258,7 +258,7 @@ button:active {
   }
 
   .winner-window .winnerText {
-    font-size: 25px;
+    font-size: 20px;
   }
 
 }
