@@ -252,14 +252,14 @@ button:active {
 
   .winner-window {
     width: 80%;
-    height: 30%;
+    height: 35%;
     left: 10%;
-    top: 40%;
+    top:35%  ;
   }
 
   .winner-window .winnerText {
     font-size: 20px;
-    left: 10%;
+    left: 15%;
   }
 
 }
