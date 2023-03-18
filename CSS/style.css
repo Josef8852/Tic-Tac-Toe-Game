@@ -154,7 +154,7 @@ button:active {
 .tie {
   position: absolute;
   left: 44%;
-  top: 19%;
+  top: 30%;
   font-size: 30px;
   font-weight: 800;
   color: orange;
@@ -195,6 +195,72 @@ button:active {
   position: absolute;
   font-size: 45px;
   cursor: pointer;
+}
+
+
+/* responsive */
+
+
+@media (max-width:767px) {
+
+  body {
+    height: 110vh;
+  }
+
+  div h2 {
+    font-size: 25px;
+  }
+
+  .grid {
+    width: 80%;
+    height: 30%;
+    left: 10%;
+  }
+
+  .grid .cell {
+    width: 100% ; 
+    height: 100% ; 
+  }
+
+  .grid i {
+    font-size: 40px;
+  }
+
+  .playerOne {
+    font-size: 17px;
+    top:15% ;
+    left: 0; 
+  }
+
+  .playerTwo {
+    font-size: 17px;
+    top:15% ;
+    right: 0; 
+  }
+
+  .tie {
+    left: 40%;
+    top: 25%;
+    font-size: 17px;
+  }
+
+
+  .reset {
+    top: 32%;
+    left: 30px;
+  }
+
+  .winner-window {
+    width: 80%;
+    height: 30%;
+    left: 10%;
+    top: 35%;
+  }
+
+  .winner-window .winnerText {
+    font-size: 25px;
+  }
+
 }
 
 
