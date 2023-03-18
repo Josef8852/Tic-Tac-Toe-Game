@@ -183,7 +183,7 @@ button:active {
 .winner-window .winnerText {
   color: orange;
   position: absolute;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 800;
   left: 15%;
   top: 45%  ;
@@ -223,7 +223,7 @@ button:active {
   }
 
   .grid i {
-    font-size: 80%;
+    font-size: 50%;
   }
 
   .playerOne {
@@ -254,7 +254,7 @@ button:active {
     width: 80%;
     height: 30%;
     left: 10%;
-    top: 35%;
+    top: 41%;
   }
 
   .winner-window .winnerText {
