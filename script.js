@@ -208,7 +208,7 @@ for (let i = 0; i < gridCell.length; i++) {
 
           clearGrid() ;   
 
-        } , 200)  ;
+        } , 150)  ;
       }
 
       
@@ -230,7 +230,7 @@ for (let i = 0; i < gridCell.length; i++) {
           winnerX = false ; 
           clearGrid() ;   
 
-        } , 200)  ;
+        } , 150)  ;
       }
 
 
@@ -250,7 +250,7 @@ for (let i = 0; i < gridCell.length; i++) {
 
             clearGrid()  ;
 
-          } , 200) ;
+          } , 150) ;
         }
 
       
