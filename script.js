@@ -54,6 +54,8 @@ function clearGrid ()  {
     gridCell[i].style.background = "white" ; 
   }
   
+  clickcounter = 0 ; 
+
   x = true  ;
   o = false ; 
 }
@@ -206,7 +208,7 @@ for (let i = 0; i < gridCell.length; i++) {
 
           clearGrid() ;   
 
-        } , 400)  ;
+        } , 200)  ;
       }
 
       
@@ -228,7 +230,7 @@ for (let i = 0; i < gridCell.length; i++) {
           winnerX = false ; 
           clearGrid() ;   
 
-        } , 400)  ;
+        } , 200)  ;
       }
 
 
@@ -248,7 +250,7 @@ for (let i = 0; i < gridCell.length; i++) {
 
             clearGrid()  ;
 
-          } , 400) ;
+          } , 200) ;
         }
 
       
